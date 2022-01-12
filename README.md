@@ -1,4 +1,4 @@
-# dom-to-pdf
+# dom-to-pdf-docker
 
 dom-to-pdf generates a printable PDF from DOM node using HTML5 canvas and svg.
 
