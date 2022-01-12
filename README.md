@@ -5,12 +5,12 @@ dom-to-pdf generates a printable PDF from DOM node using HTML5 canvas and svg.
 ## Install
 
 ```
-npm install --save dom-to-pdf
+npm install --save dom-to-pdf-docker
 ```
 
 ## Usage
 ```javascript
-var domToPdf = require('dom-to-pdf');
+var domToPdf = require('dom-to-pdf-docker');
 
 var element = document.getElementById('test');
 var options = {
@@ -29,18 +29,6 @@ domToPdf(element, options, function(pdf) {
 * `proxyUrl` - string, e.g. `/api/proxyImage?url=`, a route in your app which renders images on your domain in order to avoid problems with CORS with the images on a DOM
 * `compression` - string, compression of the generated image, can have the values 'NONE', 'FAST', 'MEDIUM' and 'SLOW'. (default is 'NONE')
 
-
-## Support
-<a href='https://ko-fi.com/Y8Y5ZDQP' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://az743702.vo.msecnd.net/cdn/kofi4.png?v=2' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
-
-Support me with a coin
-
-BTC 14VroJFPkqKPUSafverhgsZJyqrzYXm3zn
-
-<a href='https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=N4989JZU4MV6Y&item_name=Support&currency_code=USD&source=url' target='_blank'>Paypal</a>
-
-
-<a href='https://money.yandex.ru/to/410012447478695' target='_blank'>Yandex Money</a>
 
 ## MIT License
 Copyright (c) 2022 Osman Mazinov
