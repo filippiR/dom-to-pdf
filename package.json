@@ -1,5 +1,5 @@
 {
-  "name": "dom-to-pdf",
+  "name": "dom-to-pdf-docker",
   "version": "0.2.7",
   "description": "Generates a printable paginated pdf from DOM node using HTML5 canvas and svg.",
   "main": "index.js",
@@ -8,10 +8,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:ovvn/dom-to-pdf.git"
+    "url": "git+ssh://git@github.com/filippiR/dom-to-pdf.git"
   },
   "dependencies": {
-    "dom-to-image": "git@github.com:dmapper/dom-to-image.git",
+    "dom-to-image": "^2.6.0",
     "jspdf": "^1.5.3"
   },
   "keywords": [
@@ -26,11 +26,7 @@
     "paginate",
     "page-break"
   ],
-  "author": {
-    "name": "Osman Mazinov",
-    "email": "omazinov@gmail.com",
-    "url": "https://ovvn.github.io"
-  },
+  "author": "Osman Mazinov <omazinov@gmail.com> (https://ovvn.github.io)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ovvn/dom-to-pdf/issues"
